@@ -1,0 +1,90 @@
+.nav {
+    display: flex;
+    //justify-content: space-between;
+    padding: 0 40px;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(26, 88, 223);
+    color: white;
+    font-size: 18px;
+    user-select: none;
+    z-index: 10000000;
+    max-width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    .input-icon input:focus {
+        width: 100%;
+    }
+    .controles {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        .boton-menu {
+            font-size: 24px;
+            cursor: pointer;
+            
+
+            label {
+                width: 30%;
+                height: 100%;
+                padding: 0.4em 0.6em;
+                border-radius: 4px;
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.164);
+                }
+            }
+            
+
+            * {
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    .lista {
+            display: flex;
+            list-style: none;
+        li {
+            padding: 0.7em;
+            a {
+                font-size: 18px;
+                padding: 0.4em;
+                color: white;
+                display: block;
+                border-radius: 4px;
+                transition: all 0.3s;
+                cursor: pointer;
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.164);
+                }
+
+                &.activo {
+                    background-color: rgba(206, 82, 0, 0.733);
+                }
+            }
+        }
+    }
+    
+    .carga {
+        position: absolute;
+        height: 3px;
+        left: 0;
+        width: 30%;
+        background-color: red;
+        bottom: 3;
+        z-index: 2000000;
+        animation: pre 1s  0s infinite  linear;
+    }
+
+    @keyframes pre {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+}

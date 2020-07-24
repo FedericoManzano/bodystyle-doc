@@ -1,0 +1,55 @@
+.sidebar {
+    width: 250px;
+    position: fixed;
+    left: -250px;
+    top: 4em;
+    bottom: 0;
+    background-color: rgb(240, 240, 240);
+    border-right: 1px solid rgb(216, 216, 216);
+    transition: all 0.2s;
+    padding-top: 30px;
+    box-shadow: 0 1px 5px 5px rgba(0, 0, 0, 0.116);
+    overflow: auto;
+    user-select: none;
+    z-index: 1000000;
+  //  font-family: "Roboto";
+    .titulo {
+        font-size: 1em;
+        color: rgb(54, 54, 54);
+        font-weight: 400;
+        padding: 8px 30px 8px 10px;
+        position: relative;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        i {
+            position: absolute;
+            right: 5%;
+            top: 12px
+        }
+    }
+    ul {
+        list-style: none;
+        li {
+            a {
+                padding: 5px 13px;
+                color: rgb(94, 94, 94);
+                font-size: 1em;
+                display: block;
+                text-transform: capitalize;
+               
+                &:hover {
+                   color: rgb(33, 100, 247);
+                }
+
+                &.activo {
+                    color: rgb(0, 63, 199) !important;
+                }
+            }
+        }
+    }
+}
+
+#sidebar:checked + .sidebar {
+    left: 0;
+}

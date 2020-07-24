@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://bodystyle.000webhostapp.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Libreía para frontend web" />
+    <meta property="og:description" content="Librería, Framework para el desarrollo de interfaces de usuario UI" />
+    <meta property="og:image" content="https://bodystyle.000webhostapp.com/body-ui.jpg" />
+    <meta property="og:image:width" content="1366" />
+    <meta property="og:image:height" content="768" />
+    <meta content="summary" name="twitter:card">
+    <meta name="twitter:title" content="Bodystyle Librería de estilos CSS">
+    <meta content="@Bodystyle18" name="twitter:site">
+    <meta content="@Bodystyle18" name="twitter:creator">
+    <meta name="twitter:image" content="https://bodystyle.000webhostapp.com/body-ui.jpg">
+    <meta name="twitter:description" content="Librería, Framework para el desarrollo de interfaces de usuario UI">
+
+
+    <meta name="description" content="Librería de estilos CSS con licencia MIT posibilitando
+    el uso y la modificación del código fuente.">
+
+    <link rel="canonical" href="https://bodystyle.000webhostapp.com"/>
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163426345-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'UA-163426345-1');
+    </script>
+            
+    <script data-ad-client="ca-pub-8873444937037791" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <link rel="stylesheet" href="./dist/css/estilos.css">
+    <link rel="stylesheet" href="https://ghcdn.rawgit.org/FedericoManzano/bodystyle-v3.5.0-fuente/master/dist/css/bodystyle.min.css">
+    <link  rel="stylesheet"  href="https://ghcdn.rawgit.org/FedericoManzano/show-code-v1.1.0-fuente/master/dist/css/tema-claro.min.css">
+    
+    
+    <title>Bodystyle Librería de estilos CSS</title>
+
+
+</head>
+<body>
+    
+    <!-- NAV -->
+    <nav class="nav px-s-0" itemscope itemtype="http://schema.org/WebPage">
+        <div class="controles">
+            <div class="boton-menu">
+                <label for="sidebar"><i class="bs-menu"></i></label>
+            </div>
+            
+            <div class="fz-24 fz-xs-18 mi-1 mi-s-0 d-flex ali-centrada f-grosor-3 ancho-20" itemprop="name">
+                <img itemprop="image" src="bodystylelogo.png" class="img-display-40" alt="Logo de bodystyle">
+                BODYSTYLE
+            </div>
+        </div>
+        
+        <ul class="lista ali-centrada f-grosor-3" itemprop="breadcrumb">
+            <li><a class="ocultar-desde-medianos activo" ><i class="bs-home"></i></a></li>
+            <li><a class="ocultar-desde-medianos documentacion" data-target="inicio/#/documentacion/GetStarted" >DOCS</a></li>
+            <li><a class="ocultar-desde-medianos documentacion" data-target="inicio/#/documentacion/iconos">ICONOS</a></li>
+            <li><a class="ocultar-desde-medianos" data-target="https://github.com/FedericoManzano" ><i class="bs-github"></i></a></li>
+            <li><a class="ocultar-desde-medianos dropdown-toggle pd-3" data-target="#versiones">v3.5.0</a></li>
+        </ul>
+       
+    </nav>
+    
+    <input type="checkbox" id="sidebar">
+<div class="sidebar" itemscope itemtype="http://schema.org/WebPage">
+
+    <div class="titulo" data-target="#principal">Principal <i class="fas fa-chevron-right fz-15"></i>
+        <ul itemprop="breadcrumb" id="principal"  class="lista">
+            <li><a routerLink="" routerLinkActive="activo" [routerLinkActiveOptions]="{exact:true}">Home</a></li>
+            <li><a routerLink="documentacion" routerLinkActive="activo">Docs</a></li>
+            <li><a href="https://github.com/FedericoManzano/bodystyle-v3.5.0-fuente">Github</a></li>
+        </ul>
+    </div>
+    <div itemprop="breadcrumb" class="titulo" data-target="#intro">Introduccion <i class="fas fa-chevron-right fz-15"></i>
+        <ul id="intro"  class="lista">
+            <li><a routerLink="documentacion/GetStarted" routerLinkActive="activo">Get Started</a></li>
+            <li><a routerLink="documentacion/descarga" routerLinkActive="activo">Descargar</a></li>
+            <li><a routerLink="documentacion/tipografia" routerLinkActive="activo">Tipografia</a></li>
+            <li><a routerLink="documentacion/webpack" routerLinkActive="activo">Webpack</a></li>
+        </ul>
+    </div>
+    <div itemprop="breadcrumb" class="titulo" data-target="#ali">Alineamiento <i class="fas fa-chevron-right fz-15"></i>
+        <ul id="ali"  class="lista">
+            <li><a routerLink="documentacion/contenedor" routerLinkActive="activo">Contenedor</a></li>
+            <li><a routerLink="documentacion/flexbox" routerLinkActive="activo">Flexbox</a></li>
+            <li><a routerLink="documentacion/grilla" routerLinkActive="activo">Grilla</a></li>
+        </ul>
+    </div>
+
+    <div itemprop="breadcrumb" class="titulo" data-target="#CSS">CSS <i class="fas fa-chevron-right fz-15"></i>
+        <ul id="CSS"  class="lista">
+            <li><a routerLink="documentacion/alertas" routerLinkActive="activo">Alertas</a></li>
+            <li><a routerLink="documentacion/ayudantes" routerLinkActive="activo">Ayudantes</a></li>
+            <li><a routerLink="documentacion/breadcrumbs" routerLinkActive="activo">Breadcrumbs</a></li>
+            <li><a routerLink="documentacion/badges" routerLinkActive="activo">Badges</a></li>
+            <li><a routerLink="documentacion/colores" routerLinkActive="activo">Colores</a></li>
+            <li><a routerLink="documentacion/decorarTitulos" routerLinkActive="activo">Decorar Titulos</a></li>
+            <li><a routerLink="documentacion/efecto3d" routerLinkActive="activo">Efecto 3d</a></li>
+            <li><a routerLink="documentacion/efectoBorde" routerLinkActive="activo">Efecto Borde</a></li>
+            <li><a routerLink="documentacion/fondos" routerLinkActive="activo">Fondos</a></li>
+            <li><a routerLink="documentacion/formas" routerLinkActive="activo">Formas</a></li>
+            <li><a routerLink="documentacion/imagenes" routerLinkActive="activo">Imágenes</a></li>
+            <li><a routerLink="documentacion/links" routerLinkActive="activo">Links</a></li>
+            <li><a routerLink="documentacion/redesSociales" routerLinkActive="activo">Redes Sociales</a></li>
+            <li><a routerLink="documentacion/tablas" routerLinkActive="activo">Tablas</a></li>
+        </ul>
+    </div>
+
+    <div itemprop="breadcrumb" class="titulo" data-target="#JS">JS <i class="fas fa-chevron-right fz-15"></i>
+        <ul id="JS"  class="lista">
+            <li><a routerLink="documentacion/botonInicio" routerLinkActive="activo">Boton Inicio</a></li>
+            <li><a routerLink="documentacion/comentarioDinamico" routerLinkActive="activo">Comentario Dinamico</a></li>
+            <li><a routerLink="documentacion/dropdown" routerLinkActive="activo">Dropdown</a></li>
+            <li><a routerLink="documentacion/paralax" routerLinkActive="activo">Paralax</a></li>
+            <li><a routerLink="documentacion/resaltarSintaxis" routerLinkActive="activo">Resaltar Sintaxis</a></li>
+            <li><a routerLink="documentacion/tabs" routerLinkActive="activo">Tabs</a></li>
+            <li><a routerLink="documentacion/toast" routerLinkActive="activo">Toast</a></li>
+            <li><a routerLink="documentacion/tooltips" routerLinkActive="activo">ToolTips</a></li>
+            <li><a routerLink="documentacion/waves" routerLinkActive="activo">Waves</a></li>
+        </ul>
+    </div>
+    <div itemprop="breadcrumb" class="titulo" data-target="#Comp">Componentes <i class="fas fa-chevron-right fz-15"></i>
+        <ul id="Comp"  class="lista">
+            <li><a routerLink="documentacion/botones" routerLinkActive="activo">Botones</a></li>
+            <li><a routerLink="documentacion/colecciones" routerLinkActive="activo">Colecciones</a></li>
+            <li><a routerLink="documentacion/coleccionesFlotantes" routerLinkActive="activo">Colecciones Flotantes</a></li>
+            <li><a routerLink="documentacion/gruposBotones" routerLinkActive="activo">Grupos Botones</a></li>
+            <li><a routerLink="documentacion/menu" routerLinkActive="activo">Menú</a></li>
+            <li><a routerLink="documentacion/modal" routerLinkActive="activo">Modal</a></li>
+            <li><a routerLink="documentacion/preloader" routerLinkActive="activo">Preloader</a></li>
+            <li><a routerLink="documentacion/progressBar" routerLinkActive="activo">Progressbar</a></li>
+            <li><a routerLink="documentacion/sidebar" routerLinkActive="activo">Sidebar</a></li>
+            <li><a routerLink="documentacion/slider" routerLinkActive="activo">Slider</a></li>
+            <li><a routerLink="documentacion/tarjetas" routerLinkActive="activo">Tarjetas</a></li>
+        </ul>
+    </div>
+    <div itemprop="breadcrumb" class="titulo" data-target="#Form">Formularios <i class="fas fa-chevron-right fz-15"></i>
+        <ul id="Form"  class="lista">
+            <li><a routerLink="documentacion/checkbox" routerLinkActive="activo">Checkbox</a></li>
+            <li><a routerLink="documentacion/file" routerLinkActive="activo">File</a></li>
+            <li><a routerLink="documentacion/formularios" routerLinkActive="activo">Formularios</a></li>
+            <li><a routerLink="documentacion/gruposInput" routerLinkActive="activo">Grupos Input</a></li>
+            <li><a routerLink="documentacion/inputText" routerLinkActive="activo">Input Text</a></li>
+            <li><a routerLink="documentacion/radio" routerLinkActive="activo">Radio</a></li>
+            <li><a routerLink="documentacion/range" routerLinkActive="activo">Range</a></li>
+            <li><a routerLink="documentacion/select" routerLinkActive="activo">Select</a></li>
+            <li><a routerLink="documentacion/switch" routerLinkActive="activo">Switch</a></li>
+            <li><a routerLink="documentacion/templates" routerLinkActive="activo">Templates</a></li>
+        </ul>
+    </div>
+    <div itemprop="breadcrumb" class="titulo" data-target="#Uti">Utilitarios <i class="fas fa-chevron-right fz-15"></i>
+        <ul id="Uti"  class="lista">
+            <li><a routerLink="documentacion/bordes" routerLinkActive="activo">Bordes</a></li>
+            <li><a routerLink="documentacion/margin" routerLinkActive="activo">Margin</a></li>
+            <li><a routerLink="documentacion/medidas" routerLinkActive="activo">Medidas</a></li>
+            <li><a routerLink="documentacion/overflow" routerLinkActive="activo">Overflow</a></li>
+            <li><a routerLink="documentacion/padding" routerLinkActive="activo">Padding</a></li>
+            <li><a routerLink="documentacion/sass" routerLinkActive="activo">Sass</a></li>
+            <li><a routerLink="documentacion/texto" routerLinkActive="activo">Texto</a></li>
+        </ul>
+    </div>
+    <div itemprop="breadcrumb" class="titulo" data-target="#Ver">
+        Versiones 
+        <i class="fas fa-chevron-right fz-15"></i>
+        <ul id="Ver"  class="lista">
+            <li><a href="">v3.1.0 Actual</a></li>
+            <li><a href="docs/V3.0.0">v3.0.0</a></li>
+            <li><a href="docs/V2.2.0">v2.2.0</a></li>
+            <li><a href="docs/V2.0.1/index.php">v2.0.1</a></li>
+            <li><a href="docs/V2.0.0/index.php">v2.0.0</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="dropdown" id="versiones">
+        <ul>
+            <li><a href="" class="e-borde-izq-verde-5">v3.5.0 Actual</a></li>
+            <li><a class="ocultar-desde-medianos documentacion" data-target="docs/V3.1.0" >v3.1.0</a></li>
+            <li><a class="ocultar-desde-medianos documentacion" data-target="docs/V3.0.0" >v3.0.0</a></li>
+            <li><a class="ocultar-desde-medianos documentacion" data-target="docs/V2.2.0" >v2.2.0</a></li>
+            <li><a class="e-borde-izq-negro-5" href="docs/V2.0.1/index.php">v2.0.1</a></li>
+            <li><a class="e-borde-izq-negro-5" href="docs/V2.0.0/index.php">v2.0.0</a></li>
+        </ul>
+    </div>
+    
+
+
+        <section class="cabecera-principal" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="ancho-90 m-a">
+                <div class="badge-md badge-rojo fd-naranja-o-2 mab-2">V 3.5.0</div>
+                <div class="d-flex ali-centrada just-centrada">
+                    <img itemprop="image" src="bodystylelogo.png" class="img-display-96 ocultar-desde-x-chicos" alt="">
+                    <h1 itemprop="name" class="fz-80 fz-s-50">BodyStyle</h1>
+                </div>
+                
+                <h2 class="fz-25 mar-3 mab-3" itemprop="description">Libreria de estilos CSS para la rapida creacion de la interfaz de usuario UI</h2>
+                <div class="d-flex flex-wrap-s just-centrada ancho-50 ancho-s-100 m-a">
+                    <a itemprop="identifier" routerLink="documentacion/GetStarted" class="btn-cubrir-lg-o btn-blanco-o ">Comenzar</a>
+                    <a itemprop="identifier" href="https://github.com/FedericoManzano/bodystyle-v3.5.0-fuente" class="btn-cubrir-lg fd-negro mi-1 mi-s-0 mar-s-1">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="introduccion" class="scroll" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="contenedor">
+                <h2 itemprop="name">
+                    Con Bodystyle se puede crear sitios responsive sin demasiado esfuerzo
+                    y con mucha ganancia de tiempo en el desarrollo de aplicaciones web.
+                </h2>
+        
+                <div class="contenido">
+                    <div class="fila">
+                        <div class="cs-12 cm-8">
+                            <img itemprop="image" src="responsive.jpg" class="img-responsive " alt="Sitios responsive">
+                        </div>
+                        <div class="cs-12 cm-4">
+                            <p itemprop="description">
+                                Diseños adaptables a todos los tamaños de dispositivos con ganancia de tiempo y una estética 
+                                de los modelos más elevada. <br> 
+                                En el presente sitio se muestran todas las funcionalidades de la librería junto con la lógica 
+                                que acompaña a cada uno de los componentes.
+                            </p>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="mar-8 ">
+                    <div class="divisor m-a"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="descarga" class="secciones" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="contenedor">
+                <h2 itemprop="name">Vamos a ver los diferentes métodos de descarga e instalacion de bodystyle</h2>
+                
+                <div class="fila mar-5">
+                    <div class="cs-12 cm-6 p-2 my-s-3">
+                        <div class="d-flex flex-columna">
+                            <i class="bs-css  fz-150 c-azul-c"></i>
+                            <p class="my-3" itemprop="description">
+                                Podemos agregar la librería a través del enlace que figura en la parte inferior a este texto 
+                                en la cabecera del documento principal del proyecto en desarrollo.
+                            </p>
+                            
+                            <pre class="cod-html p-0"> <link rel="stylesheet" href="https://ghcdn.rawgit.org/FedericoManzano/bodystyle-v3.1.0-fuente/master/dist/css/bodystyle.min.css"></pre>
+                        </div>
+                    </div>
+                    <div class="cs-12 cm-6 p-2 my-s-3">
+                        <div class="d-flex flex-columna">
+                            <i class="bs-js  fz-150 c-naranja"></i>
+                            <p class="my-3" itemprop="description">
+                                Es necesario para utilizar las funcionalidades de la librería disponer del archivo 
+                                bodystyle.min.js el cual podemos agregarlo a través de su CDN que figura en la parte 
+                                inferior a este texto.
+                            </p>
+                            <pre class="cod-html p-0"><script    src="https://ghcdn.rawgit.org/FedericoManzano/bodystyle-v3.1.0-fuente/master/dist/js/bodystyle.min.js"></script></pre>
+                        </div>
+                    </div>
+                    <div class="cs-12 cm-6 p-2 my-s-3">
+                        <div class="d-flex flex-columna">
+                            
+                            <i class="bs-cloud-download fz-150 c-gris-o"></i>
+                            <p class="my-3" itemprop="description">
+                                Si querremos disponer de los archivos físicos de la librería podemos descargar 
+                                el archivo pre-compilado desde el botón que figura en la parte inferiror a este texto.
+                            </p>
+                            <a href="https://github.com/FedericoManzano/bodystyle-v3.5.0-precompilado/archive/master.zip" class="btn-cubrir-lg fd-naranja  "><i class="bs-cloud-download">&nbsp;</i>Descargar</a>
+                        </div>
+                    </div>
+        
+                    <div class="cs-12 cm-6 p-2 ">
+                        <div class="d-flex flex-columna">
+                            <i class="bs-github fz-150  c-gris-n"></i>
+                            <p class="my-3" itemprop="description">
+                                A través de la cuenta de GitHub que figura en la parte inferior a este 
+                                texto podemos acceder a todo el código fuente de bodystyle.
+                            </p>
+                            <a itemprop="identifier" href="https://github.com/FedericoManzano/bodystyle-v3.1.0-fuente" class="btn-cubrir-lg fd-azul-ve"><i class="bs-code-2">&nbsp;</i>Código Fuente</a>
+                        </div>
+                    </div>
+        
+                    <div class="cs-12 cm-6 p-2 ">
+                        <div class="d-flex flex-columna">
+                            <i class="bs-npm-2 fz-150  c-gris-n"></i>
+                            <p class="my-3" itemprop="description">
+                                Podemos instalar Bodystyle con NPM a través 
+                                de la consola con el comando que figura debajo.
+                            </p>
+                            <div class="ov-scroll a-i" >
+                                <p itemprop="identifier" class="c-rojo fz-17 a-i" style="white-space: nowrap;"><i class="bs-console c-negro">&nbsp;</i>npm install body-ui</p>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="cs-12 cm-6 p-2 ">
+                        <div class="d-flex flex-columna">
+                            <i class="bs-yarn fz-150  c-verde"></i>
+                            <p class="my-3" itemprop="description">
+                                También podemos instalar Bodystyle a través de la consola 
+                                utilizando Yarn con el comando que figura debajo.
+                            </p>
+                            <div class="ov-scroll a-i" >
+                                <p itemprop="identifier" class="c-rojo fz-17 a-i" style="white-space: nowrap;"><i class="bs-console c-negro">&nbsp;</i>yarn add body-ui</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        
+                <div class="mar-8 ">
+                    <div class="divisor m-a"></div>
+                </div>
+            </div>
+        </section>
+            
+        
+        <section  class="secciones">
+            <div class="contenedor">
+                <h2 itemprop="name">Este un listado de dependecias utilizadas por la librería</h2>
+                <div class="d-flex flex-columna-s  mar-5 ali-centrada">
+                    <i class="bs-nodejs fz-200 c-verde m-a"></i>
+                    <p class="pi-3" style="border-left: 1px solid rgba(0, 0, 0, 0.11);">A continueación se detallan las dependencias utillizadas de NodeJs para la realización de la librería. La versión de Node utilizada es v12.16.3 y la versión del gestor de paquetes NPM6.14.4.</p>
+                </div>
+                <div class="fila">
+                    <div class="cs-12 cm-6 a-c">
+                        <div class="d-flex flex-columna  mar-5 ali-centrada just-centrada">
+                            <div class="a-c">
+                                <i class="bs-webpack fz-120 c-azul-c pd-1 p-s-0"></i>
+                            </div>
+                            
+                            <p>
+                                La versión de webpack utilizada es v4.43.0 y webpack-cli3.3.11
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cs-12 cm-6">
+                        <div class="d-flex  flex-columna  mar-5 ali-centrada">
+                            <div class="a-c">
+                                <i class="bs-babel fz-120 c-amarillo pd-1 p-s-0"></i>
+                            </div>
+                            <p class="pi-3" style="border-left: 1px solid rgba(0, 0, 0, 0.11);">
+                                La versión de webpack utilizada es v4.43.0 y webpack-cli3.3.11
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cs-12 cm-6">
+                        <div class="d-flex  flex-columna mar-5 ali-centrada">
+                            <div class="a-c">
+                                <i class="bs-jquery fz-120 c-azul pd-1 p-s-0"></i>
+                            </div>
+                           
+                            <p>
+                                La versión de webpack utilizada es v4.43.0 y webpack-cli3.3.11
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cs-12 cm-6">
+                        <div class="d-flex  flex-columna mar-5 ali-centrada">
+                            <div class="a-c">
+                                <i class="bs-code-2 fz-120 c-rojo pd-1 p-s-0"></i>
+                            </div>
+                            
+                            <p>
+                                La versión de webpack utilizada es v4.43.0 y webpack-cli3.3.11
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cs-12 cm-6">
+                        <div class="d-flex  flex-columna  mar-5 ali-centrada">
+                            <div class="a-c">
+                                <i class="bs-js-2 fz-120 c-naranja pd-1 p-s-0"></i>
+                            </div>
+                            
+                            <p>
+                                La versión de webpack utilizada es v4.43.0 y webpack-cli3.3.11
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cs-12 cm-6">
+                        <div class="d-flex  flex-columna mar-5 ali-centrada">
+                            <div class="a-c">
+                                <i class="bs-css-2 fz-120 c-azul-ve pd-1 p-s-0"></i>
+                            </div>
+                            
+                            <p>
+                                La versión de webpack utilizada es v4.43.0 y webpack-cli3.3.11
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mar-8 ">
+                    <div class="divisor m-a"></div>
+                </div>
+            </div>
+        </section>
+    <script  src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="https://ghcdn.rawgit.org/FedericoManzano/bodystyle-v3.1.0-fuente/master/dist/js/bodystyle.min.js"></script>
+    <script src="./dist/js/body-docs.bundle.min.js"></script>
+    <script>
+        BS.DropDownInit()
+        BS.CodigoHtmlInit({lineas:false})
+    </script>
+</body>
+</html>

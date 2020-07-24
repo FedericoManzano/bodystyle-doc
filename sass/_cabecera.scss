@@ -1,0 +1,51 @@
+.cabecera-principal {
+    background-color: rgb(26, 88, 223);
+    padding: 90px 0 120px 0;
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    h1, h2 {
+        font-weight: 200 !important;
+    }
+
+    .girar {
+        animation: gira 3s none infinite linear;
+    }
+  
+    @keyframes gira { 
+        from{
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(365deg);
+        }
+    }
+}
+
+.secciones {
+
+    margin-top: 80px;
+    text-align: center;
+
+    
+    h2 {
+        font-size: 30px;
+        font-weight: 300;
+        color: rgb(61, 61, 61);
+        text-align: center;
+
+    }
+
+    p {
+        line-height: 29px;
+        color: rgb(46, 46, 46);
+        text-align: center;
+        font-size: 19px;
+        font-weight: 400;
+    }
+}
