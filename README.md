@@ -3,6 +3,10 @@
 [![Documentación](https://img.shields.io/badge/docs-v3.5.0-green.svg)](https://bodystyle.000webhostapp.com)
 [![Licencia](https://img.shields.io/badge/MIT-3.5.0-blue.svg)](https://github.com/FedericoManzano/bodystyle-iconos/blob/master/LICENCE)
 
+## Descripción
+
+Este es el repositorio de la documentación de la librería [bodystyle](https://bodystyle.000webhostapp.com/) dedicada a la personalización de la interfaz de usuario en páginas web. En este documento se detallan cada uno de los elementos que contiene la librería en sus respectivas secciones. 
+
 ## Contenido
 
 - Inicio
@@ -76,4 +80,6 @@
     - [Sass](https://bodystyle.000webhostapp.com/inicio/#/documentacion/sass)
     - [Texto](https://bodystyle.000webhostapp.com/inicio/#/documentacion/texto)
 
-   
+## Licencia
+
+MIT (c) 2020 Bodystyle. [info](https://github.com/FedericoManzano/bodystyle-doc/blob/master/LICENCE)
