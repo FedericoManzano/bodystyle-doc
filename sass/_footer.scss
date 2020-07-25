@@ -1,0 +1,58 @@
+#footer {
+    padding: 20px;
+    background-color: rgb(247, 247, 247);
+    border-top: 1px solid rgba(0, 0, 0, 0.096);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    .contenido {
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            h1 {
+                font-size: 60px;
+                color: black;
+                font-weight: 200;
+            }
+        }
+
+        .redes {
+            display: flex;
+            justify-content: center;
+             a{
+                font-size: 35px;
+                padding: 10px;
+                color: rgb(102, 102, 102);
+                transition: all 0.3s;
+                &:hover {
+                    color: black;
+                    transform: scale(1.2);
+                }
+             }
+        }
+
+        .pie {
+            font-weight: 300;
+            color: rgb(73, 73, 73);
+            font-size: 25px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+}
+
+.licencia {
+    background-color: rgba(0, 0, 0, 0.068);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.178);
+
+    a {
+        color: black;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

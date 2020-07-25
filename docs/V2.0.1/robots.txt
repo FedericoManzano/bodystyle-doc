@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.htm
+Sitemap: https://bodystyle.000webhostapp.com/sitemap.xml

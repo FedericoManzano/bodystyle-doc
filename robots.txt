@@ -1,1 +1,4 @@
-Sitemap: https://bodystyle.000webhostapp.com/sitemap-v2.2.0.xml
+Sitemap: https://bodystyle.000webhostapp.com/sitemap.xml
+Sitemap: https://bodystyle.000webhostapp.com/docs/V3.1.0/sitemap.xml
+Sitemap: https://bodystyle.000webhostapp.com/docs/V3.0.0/sitemap.xml
+Sitemap: https://bodystyle.000webhostapp.com/docs/V2.2.0/sitemap.xml

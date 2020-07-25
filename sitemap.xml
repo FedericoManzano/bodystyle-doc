@@ -7,94 +7,88 @@
     <priority>0.8</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion</loc>
-    <lastmod>2020-06-09</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/GetStarted</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/GetStarted</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/descarga</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/descarga</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/tipografia</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/tipografia</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/webpack</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/webpack</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/descarga</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/descarga</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/contenedor</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/contenedor</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/flexbox</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/flexbox</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/grilla</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/grilla</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/alertas</loc>
-    <lastmod>2020-06-09</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/ayudantes</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/alertas</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/badges</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/ayudantes</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/breadcrumbs</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/badges</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/efecto3d</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/breadcrumbs</loc>
+    <lastmod>2020-06-09</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>      
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/efecto3d</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
@@ -102,34 +96,34 @@
 
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/fondos</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/fondos</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/imagenes</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/imagenes</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/tablas</loc>
-    <lastmod>2020-06-09</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/menu</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/tablas</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/sidebar</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/menu</loc>
+    <lastmod>2020-06-09</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>      
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/sidebar</loc>
     <lastmod>2020-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
@@ -137,247 +131,259 @@
 
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/efectoBorde</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/efectoBorde</loc>
     <lastmod>2020-06-11</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/redesSociales</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/redesSociales</loc>
     <lastmod>2020-06-11</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/formas</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/formas</loc>
     <lastmod>2020-06-12</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/tooltips</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/tooltips</loc>
     <lastmod>2020-06-13</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/tabs</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/tabs</loc>
     <lastmod>2020-06-13</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/botones</loc>
-    <lastmod>2020-06-13</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/waves</loc>
-    <lastmod>2020-06-13</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/paralax</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/botones</loc>
     <lastmod>2020-06-13</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/toast</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/waves</loc>
+    <lastmod>2020-06-13</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>      
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/paralax</loc>
     <lastmod>2020-06-13</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/tarjetas</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/toast</loc>
     <lastmod>2020-06-13</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/preloader</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/tarjetas</loc>
+    <lastmod>2020-06-13</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>      
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/preloader</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/progressBar</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/progressBar</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/colecciones</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/colecciones</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/coleccionesFlotantes</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/coleccionesFlotantes</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/gruposBotones</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/gruposBotones</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/modal</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/modal</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/formularios</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/formularios</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/checkbox</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/checkbox</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/inputText</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/inputText</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/file</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/file</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/radio</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/radio</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/templates</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/templates</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/gruposInput</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/gruposInput</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/switch</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/switch</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/select</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/select</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/range</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/range</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/bordes</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/bordes</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/margin</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/margin</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/padding</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/padding</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/texto</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/texto</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/medidas</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/medidas</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/overflow</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/overflow</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/sass</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/sass</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/botonInicio</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/botonInicio</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/colores</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/colores</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/comentarioDinamico</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/comentarioDinamico</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/resaltarSintaxis</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/resaltarSintaxis</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/slider</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/slider</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/decorarTitulos</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/decorarTitulos</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>      
-    <loc>https://bodystyle.000webhostapp.com/#/documentacion/links</loc>
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/links</loc>
+    <lastmod>2020-06-16</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>      
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/iconos</loc>
+    <lastmod>2020-06-16</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>      
+    <loc>https://bodystyle.000webhostapp.com/inicio/#/documentacion/personalizado</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
@@ -402,6 +408,12 @@
   </url>
   <url>      
     <loc>https://bodystyle.000webhostapp.com/docs/V3.0.0</loc>
+    <lastmod>2020-06-16</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>      
+    <loc>https://bodystyle.000webhostapp.com/docs/V3.1.0</loc>
     <lastmod>2020-06-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>

@@ -16,6 +16,9 @@
   left: 0;
   top: 0;
 }
+.nav .input-icon input:focus {
+  width: 100%;
+}
 .nav .controles {
   width: 30%;
   display: flex;
@@ -190,6 +193,59 @@
 
 #sidebar:checked + .sidebar {
   left: 0;
+}
+
+#footer {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-top: 1px solid rgba(0, 0, 0, 0.096);
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+#footer .contenido .logo {
+  display: flex;
+  align-items: center;
+}
+#footer .contenido .logo h1 {
+  font-size: 60px;
+  color: black;
+  font-weight: 200;
+}
+#footer .contenido .redes {
+  display: flex;
+  justify-content: center;
+}
+#footer .contenido .redes a {
+  font-size: 35px;
+  padding: 10px;
+  color: #666666;
+  transition: all 0.3s;
+}
+#footer .contenido .redes a:hover {
+  color: black;
+  transform: scale(1.2);
+}
+#footer .contenido .pie {
+  font-weight: 300;
+  color: #494949;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.licencia {
+  background-color: rgba(0, 0, 0, 0.068);
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.178);
+}
+.licencia a {
+  color: black;
+}
+.licencia a:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=estilos.css.map */
